@@ -71,7 +71,7 @@
   Tested Disturbances :		sensing-time = 0.001 
   
 
-# Output files
+# Input/ Output files
 Our tool-chain takes 1) plant model as hybrid automaton, 2) Controller program in C with standard input/output structures, 3) Configuration file with real-time disturbance(Jitter, Noise, Quantization error) specifications. It merges this implementation level details and encodes an SMT formula over Reals, to be solved bt dReal Solver. Every benchmark folder contains 
 
 ## .ha file
