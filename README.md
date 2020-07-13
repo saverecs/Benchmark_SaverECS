@@ -1,4 +1,4 @@
-# benchmarks_SafeEMC
+# benchmarks_SaverECS
 [SMT Benchmarks of Hybrid Systems used so far for Verification](https://sites.google.com/view/benchmarkssafeemc/home). 
       
 ## Thermostat
