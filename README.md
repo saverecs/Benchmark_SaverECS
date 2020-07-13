@@ -21,6 +21,8 @@
   
   Tested Disturbances :		release-time = 0.01, sensing-time = 0.001 
   
+  Tested Disturbances :		time: [0.1,0.5] =>angVal:[-0.02,+0.02 ]
+  
 ## Yaw Damper for Boeing 747
   Initial Plant State:		0.226891=< x1 <= 0.318401 ;1.384075 =<x2 <= 1.625669 ; 0.226891 =<x3 <= 0.318401 ; 1.384075 =<x4 <= 1.625669 ; 1.384075=< w <= 1.625669 ; 
   
@@ -48,7 +50,7 @@
   
   Safety Criteria :			position==0 & 5<velocity<(-5) 
   
-  Tested Disturbances :		time: [0.1,0.5] =>angVal:[-0.02,+0.02 ]
+  
   
 ## Adaptive Cruise Control
   Initial Plant State:		50 =< velocity <= 80; 40 =< acceleration <= 70; 
