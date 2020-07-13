@@ -48,7 +48,7 @@
   
   Safety Criteria :			position==0 & 5<velocity<(-5) 
   
-  Tested Disturbances :		time: [0.1,0.5] =>angVal:[-0.02,+0.02 
+  Tested Disturbances :		time: [0.1,0.5] =>angVal:[-0.02,+0.02 ]
   
 ## Adaptive Cruise Control
   Initial Plant State:		50 =< velocity <= 80; 40 =< acceleration <= 70; 
