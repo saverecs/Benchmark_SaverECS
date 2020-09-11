@@ -1,7 +1,7 @@
 # benchmarks_SaverECS
 [SMT Benchmarks of Hybrid Systems used so far for Verification](https://sites.google.com/view/benchmarkssafeemc/home). 
       
-## Thermostat
+## Thermostat [[1]](#1)
   Initial Plant State:		55 F =<temperature<= 75 
   
   Initial Control Input :		u =20 
@@ -91,6 +91,7 @@ Our tool-chain takes 1) plant model as hybrid automaton, 2) Controller program i
       containing tool generated smt formula in smt-lib 2.0 format,
    ### .json files
       to visualize counter examples (instructions given in .log file)
+====================================================================
+## References
 
-   
-
+<a id="1">[1]</a> Zutshiet  al., “Symbolic-numeric  reachability  analysis  of  closed-loopcontrol software,” in HSCC, ACM, 2016
